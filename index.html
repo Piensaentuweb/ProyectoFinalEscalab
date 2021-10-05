@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Gustavo Arancibia">
+
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <!--==================== UNICONS ====================-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <title>Portafolio Responsive Dark/Light</title>
+</head>
+
+<body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">Gustavo Arancibia</a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active">
+                            <i class="uil uil-estate nav__icon"></i> Home
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <i class="uil uil-user "></i> Sobre
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class="uil uil-file-info-alt"></i> Skills
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#portfolio" class="nav__link">
+                            <i class="uil uil-scenery"></i> Portafolio
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class="uil uil-message"></i> Contacto
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="nav__btns">
+                <!-- Theme change button -->
+                <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="uil uil-bars"></i>
+                </div>
+            </div>
+
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--===== HOME =====-->
+        <section class="home" id="home">
+            <div class="home__container bd-grid">
+                <h1 class="home__title"><span>HE</span><br>LLO.</h1>
+
+                <div class="home__scroll">
+                    <a href="#about" class="home__scroll-link"><i class="uil uil-arrow-up"></i> Scroll down</a>
+                </div>
+
+                <img src="assets/img/perfil.png" alt="" class="home__img">
+            </div>
+        </section>
+
+        <!--===== ABOUT =====-->
+        <section class="about section" id="about">
+            <h2 class="section-title">Sobre</h2>
+
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="assets/img/perfil-about.png" alt="">
+                </div>
+
+                <div>
+                    <h2 class="about__subtitle">Hola, Soy Gustavo</h2>
+                    <span class="about__profession">Diseñador Web & Dev Front</span>
+                    <p class="about__text">Profesional con experiencia en el área del diseño de sistemas web, app y
+                        diseño de páginas web, en realidad mi trabajo consiste en convertir el diseño de interfaz que
+                        habitualmente le proporciona el UI, y traducirlo al lenguaje web con el que finalmente el
+                        usuario interactuará. Habilidad para el Diseño y construcción de maquetas web.</p>
+
+                    <div class="about__social">
+                        <a href="https://www.linkedin.com/in/gustavo-arancibia-53127a97/" target="_blank"
+                            class="about__social-icon"><i class="uil uil-linkedin-alt"></i></a>
+                        <a href="https://github.com/Piensaentuweb" target="_blank" class="about__social-icon"><i
+                                class="uil uil-github-alt"></i></a>
+                        <a href="#" target="_blank" class="about__social-icon"><i class="uil uil-instagram-alt"></i></a>
+                    </div>
+                    <div class="about__button">
+                        <a download="" href="/assets/pdf/CV-GUSTAVO-2021.pdf" class="button button--flex">
+                            Descargar Cv <i class="uil uil-download-alt button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--===== SKILLS =====-->
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+
+            <div class="skills__container bd-grid">
+                <div class="skills__box">
+                    <h3 class="skills__subtitle">Development</h3>
+                    <span class="skills__name">Html</span>
+                    <span class="skills__name">Css</span>
+                    <span class="skills__name">Javascript</span>
+                    <span class="skills__name">Scss</span>
+                    <span class="skills__name">Vue</span>
+
+                    <h3 class="skills__subtitle">Design</h3>
+                    <span class="skills__name">Figma</span>
+                    <span class="skills__name">Adobe XD</span>
+                    <span class="skills__name">Photoshop</span>
+                    <span class="skills__name">Illustrator</span>
+                </div>
+
+                <div class="skills__img">
+                    <img src="assets/img/skill.jpg" alt="">
+                </div>
+            </div>
+        </section>
+
+        <!--===== PORTFOLIO =====-->
+        <section class="portfolio section" id="portfolio">
+            <h2 class="section-title">Portafolio</h2>
+
+            <div class="portfolio__container bd-grid">
+                <div class="portfolio__img">
+                    <img src="assets/img/work1.jpg" alt="">
+
+                    <div class="portfolio__link">
+                        <a target="_blank" href="https://lighton.cl/" class="portfolio__link-name">Ver Sitio Web</a>
+                    </div>
+                </div>
+                <div class="portfolio__img">
+                    <img src="assets/img/work2.jpg" alt="">
+
+                    <div class="portfolio__link">
+                        <a target="_blank" href="https://ortegaalcalde.cl/" class="portfolio__link-name">Ver Sitio
+                            Web</a>
+                    </div>
+                </div>
+                <div class="portfolio__img">
+                    <img src="assets/img/work3.jpg" alt="">
+
+                    <div class="portfolio__link">
+                        <a target="_blank" href="https://terramarechile.cl/" class="portfolio__link-name">Ver Sitio
+                            Web</a>
+                    </div>
+                </div>
+                <div class="portfolio__img">
+                    <img src="assets/img/work4.jpg" alt="">
+
+                    <div class="portfolio__link">
+                        <a target="_blank" href="https://asacorretajes.cl/" class="portfolio__link-name">Ver Sitio
+                            Web</a>
+                    </div>
+                </div>
+                <div class="portfolio__img">
+                    <img src="assets/img/work5.jpg" alt="">
+
+                    <div class="portfolio__link">
+                        <a target="_blank" href="http://eclipsolar.cl/" class="portfolio__link-name">Ver Sitio Web</a>
+                    </div>
+                </div>
+                <div class="portfolio__img">
+                    <img src="assets/img/work6.jpg" alt="">
+
+                    <div class="portfolio__link">
+                        <a target="_blank" href="https://antomar.cl/" class="portfolio__link-name">Ver Sitio Web</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--===== CONTACTO =====-->
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contacto</h2>
+
+            <div class="contact__container bd-grid">
+                <div class="contact__info">
+                    <h3 class="contact__subtitle">EMAIL</h3>
+                    <span class="contact__text">gustavoarancibiac@hotmail.com</span>
+                    <h3 class="contact__subtitle">TELÉFONO</h3>
+                    <span class="contact__text">+569 93127198</span>
+                </div>
+
+                <form action="" class="contact__form">
+                    <div class="contact__inputs">
+                        <input type="text" placeholder="Nombre" class="contact__input">
+                        <input type="mail" placeholder="Correo eléctronico" class="contact__input">
+                    </div>
+
+                    <textarea name="" id="" cols="0" rows="10" class="contact__input"
+                        placeholder="Comentarios"></textarea>
+
+                    <input type="submit" value="Enviar" class="contact__button">
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer section">
+        <div class="footer__container bd-grid">
+            <div class="footer__data">
+                <h2 class="footer__title"> GUSTAVO ARANCIBIA C. </h2>
+                <p class="footer__text">
+                    Soy Gustavo y este es mi portafolio web personal.</p>
+            </div>
+
+            <div class="footer__data">
+                <h2 class="footer__title">EXPLORAR</h2>
+                <ul>
+                    <li><a href="#home" class="footer__link">Home</a></li>
+                    <li><a href="#about" class="footer__link">Sobre</a></li>
+                    <li><a href="#skills" class="footer__link">Skills</a></li>
+                    <li><a href="#portfolio" class="footer__link">Portafolio</a></li>
+                    <li><a href="#Contact" class="footer__link">Contacto</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__data">
+                <h2 class="footer__title">SIGUEME EN</h2>
+                <a href="#" class="footer__social"><i class="uil uil-facebook-f"></i></a>
+                <a href="#" class="footer__social"><i class="uil uil-instagram"></i></a>
+                <a href="#" class="footer__social"><i class="uil uil-twitter"></i></a>
+            </div>
+
+
+        </div>
+    </footer>
+
+      <!--===== SCROLL TOP =====-->
+      <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-arrow-up scrollup__icon"></i>
+      </a>
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
